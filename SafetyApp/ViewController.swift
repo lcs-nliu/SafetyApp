@@ -9,7 +9,6 @@
 import UIKit
 import MapKit
 
-
 class ViewController: UIViewController {
     
     // outlet that connects map to controller
@@ -35,6 +34,13 @@ class ViewController: UIViewController {
 
         let zoomRange = MKMapView.CameraZoomRange(maxCenterCoordinateDistance: 200000)
         mapView.setCameraZoomRange(zoomRange, animated: true)
+
+        // Show police station on map
+        let police = D11(
+          address: "2054 Davenport Rd",
+          locationName: "Toronto Police Service - 11 Division",
+          coordinate: CLLocationCoordinate2D(latitude: 43.671234, longitude: -79.460771))
+        mapView.addAnnotation(police)
 
     }
     
