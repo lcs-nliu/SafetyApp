@@ -34,11 +34,13 @@ class ViewController: UIViewController {
 
         let zoomRange = MKMapView.CameraZoomRange(maxCenterCoordinateDistance: 200000)
         mapView.setCameraZoomRange(zoomRange, animated: true)
-
-        // Show police station on map
-        let police = D11(
-          address: "2054 Davenport Rd",
-          locationName: "Toronto Police Service - 11 Division",
+        
+     mapView.delegate = self
+        
+         // Show one police station annotation on map
+        let police = PoliceStation(
+          title: "Toronto Police Service - 11 Division",
+          locationName: "2054 Davenport Rd",
           coordinate: CLLocationCoordinate2D(latitude: 43.671234, longitude: -79.460771))
         mapView.addAnnotation(police)
 
@@ -59,6 +61,40 @@ private extension MKMapView {
         setRegion(coordinateRegion, animated: true)
     }
 }
+
+extension ViewController: MKMapViewDelegate {
+  // call map view for every annotation
+  func mapView(
+    _ mapView: MKMapView,
+    viewFor annotation: MKAnnotation
+  ) -> MKAnnotationView? {
+    // check if it is a police station object
+    guard let annotation = annotation as? PoliceStation else {
+      return nil
+    }
+    // displays markers at the annotations
+    let identifier = "PoliceStation"
+    var view: MKMarkerAnnotationView
+    // reuses annotation views that are no longer visible
+    if let dequeuedView = mapView.dequeueReusableAnnotationView(
+      withIdentifier: identifier) as? MKMarkerAnnotationView {
+      dequeuedView.annotation = annotation
+      view = dequeuedView
+    } else {
+      // Create new view if annotation view cannot be displayed
+      view = MKMarkerAnnotationView(
+        annotation: annotation,
+        reuseIdentifier: identifier)
+      view.canShowCallout = true
+      view.calloutOffset = CGPoint(x: -5, y: 5)
+      view.rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
+    }
+    return view
+  }
+}
+
+
+
 
 
 
