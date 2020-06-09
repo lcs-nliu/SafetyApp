@@ -1,97 +1,102 @@
 {
-"type": "FeatureCollection",
-"name": "7153e9ee-2951-450e-9fa6-75728f141677202043-1-16rmti7.oh1dg",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "OBJECTID": 1, "AGENCY": "Toronto Police Service - 11 Division", "ADDRESS": "2054 Davenport Rd", "CITY": "Toronto", "AREA_SQKM": 18.6518647338, "Shape_Leng": 20407.689332800001, "Shape__Area": 18679508.748291001, "Shape__Length": 20407.689332841499 },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -157.85131,
-          21.290824
-        ]
-         } },
-
-
-{ "type": "Feature", "properties": { "OBJECTID": 2, "AGENCY": "Toronto Police Service", "DIV": "D12", "UNIT_NAME": "12 Division", "ADDRESS": "200 Trethewey Dr", "CITY": "Toronto", "AREA_SQKM": 24.734602112000001, "Shape_Leng": 23875.508855299999, "Shape__Area": 24771165.596435498, "Shape__Length": 23875.508855345499 },
-  "geometry":{
-    "type":"Point",
-    "coordinates":[-157.85131,21.290824]
-  }
-}
-
-{ "type": "Feature", "properties": { "OBJECTID": 3, "AGENCY": "Toronto Police Service", "DIV": "D13", "UNIT_NAME": "13 Division", "ADDRESS": "1435 Eglinton Av W", "CITY": "Toronto", "AREA_SQKM": 18.566850990799999, "Shape_Leng": 17789.1901621, "Shape__Area": 18594759.8586426, "Shape__Length": 17789.190162147101 },   "geometry":{
-  "type":"Point",
-  "coordinates":[-157.85131,21.290824]
-}
-
-
-{ "type": "Feature", "properties": { "OBJECTID": 4, "AGENCY": "Toronto Police Service", "DIV": "D14", "UNIT_NAME": "14 Division", "ADDRESS": "350 Dovercourt Rd", "CITY": "Toronto", "AREA_SQKM": 14.216668757900001, "Shape_Leng": 21205.7426137, "Shape__Area": 14238076.7106934, "Shape__Length": 21205.742613714701 },   "geometry":{
-  "type":"Point",
-  "coordinates":[-157.85131,21.290824]
-}
-
-
-{ "type": "Feature", "properties": { "OBJECTID": 5, "AGENCY": "Toronto Police Service", "DIV": "D22", "UNIT_NAME": "22 Division", "ADDRESS": "3699 Bloor St W", "CITY": "Toronto", "AREA_SQKM": 67.926996174600006, "Shape_Leng": 52752.680651399998, "Shape__Area": 68025154.264160201, "Shape__Length": 52752.6806514333 },   "geometry":{
-  "type":"Point",
-  "coordinates":[-157.85131,21.290824]
-}
-
-
-{ "type": "Feature", "properties": { "OBJECTID": 6, "AGENCY": "Toronto Police Service", "DIV": "D23", "UNIT_NAME": "23 Division", "ADDRESS": "5230 Finch Av W", "CITY": "Toronto", "AREA_SQKM": 57.533088736400003, "Shape_Leng": 39162.681066600002, "Shape__Area": 57616092.778320298, "Shape__Length": 39162.681066593803 },   "geometry":{
-  "type":"Point",
-  "coordinates":[-157.85131,21.290824]
-}
-
-{ "type": "Feature", "properties": { "OBJECTID": 7, "AGENCY": "Toronto Police Service", "DIV": "D31", "UNIT_NAME": "31 Division", "ADDRESS": "40 Norfinch Dr", "CITY": "Toronto", "AREA_SQKM": 42.578542605899997, "Shape_Leng": 32091.104432299999, "Shape__Area": 42641462.599609397, "Shape__Length": 32091.104432272201 },   "geometry":{
-  "type":"Point",
-  "coordinates":[-157.85131,21.290824]
-}
-
-
-{ "type": "Feature", "properties": { "OBJECTID": 8, "AGENCY": "Toronto Police Service", "DIV": "D32", "UNIT_NAME": "32 Division", "ADDRESS": "30 Ellerslie Av", "CITY": "Toronto", "AREA_SQKM": 60.934891315900003, "Shape_Leng": 31522.858546399999, "Shape__Area": 61027626.326904297, "Shape__Length": 31522.8585463858 },   "geometry":{
-  "type":"Point",
-  "coordinates":[-157.85131,21.290824]
-}
-
-
-{ "type": "Feature", "properties": { "OBJECTID": 9, "AGENCY": "Toronto Police Service", "DIV": "D33", "UNIT_NAME": "33 Division", "ADDRESS": "50 Upjohn Rd", "CITY": "Toronto", "AREA_SQKM": 52.6828769834, "Shape_Leng": 32571.718679900001, "Shape__Area": 52765282.939453103, "Shape__Length": 32571.718679941499 },  "geometry":{
-  "type":"Point",
-  "coordinates":[-157.85131,21.290824]
-}
-
-
-{ "type": "Feature", "properties": { "OBJECTID": 10, "AGENCY": "Toronto Police Service", "DIV": "D41", "UNIT_NAME": "41 Division", "ADDRESS": "2222 Eglinton Av E", "CITY": "Toronto", "AREA_SQKM": 44.419955283900002, "Shape_Leng": 41375.770477099999, "Shape__Area": 44490914.653564498, "Shape__Length": 41375.770477052298 },   "geometry":{
-  "type":"Point",
-  "coordinates":[-157.85131,21.290824]
-}
-
-
-{ "type": "Feature", "properties": { "OBJECTID": 11, "AGENCY": "Toronto Police Service", "DIV": "D42", "UNIT_NAME": "42 Division", "ADDRESS": "242 Milner Av E", "CITY": "Toronto", "AREA_SQKM": 84.441689206299998, "Shape_Leng": 43182.853984399997, "Shape__Area": 84579700.531738296, "Shape__Length": 43182.853984416797 },   "geometry":{
-  "type":"Point",
-  "coordinates":[-157.85131,21.290824]
-}
-
-{ "type": "Feature", "properties": { "OBJECTID": 13, "AGENCY": "Toronto Police Service", "DIV": "D51", "UNIT_NAME": "51 Division", "ADDRESS": "51 Parliament St", "CITY": "Toronto", "AREA_SQKM": 8.5941626740500006, "Shape_Leng": 18287.609544800001, "Shape__Area": 8607343.8581543006, "Shape__Length": 18287.6095447923 },  "geometry":{
-  "type":"Point",
-  "coordinates":[-157.85131,21.290824]
-}
-
-
-
-{ "type": "Feature", "properties": { "OBJECTID": 14, "AGENCY": "Toronto Police Service", "DIV": "D52", "UNIT_NAME": "52 Division", "ADDRESS": "255 Dundas St W", "CITY": "Toronto", "AREA_SQKM": 9.1896164957999993, "Shape_Leng": 25900.760512199999, "Shape__Area": 9203581.0559081994, "Shape__Length": 25900.760512229801 },   "geometry":{
-  "type":"Point",
-  "coordinates":[-157.85131,21.290824]
-}
-
-
-{ "type": "Feature", "properties": { "OBJECTID": 15, "AGENCY": "Toronto Police Service", "DIV": "D53", "UNIT_NAME": "53 Division", "ADDRESS": "75 Eglinton Av W", "CITY": "Toronto", "AREA_SQKM": 31.229933605500001, "Shape_Leng": 27044.797402299999, "Shape__Area": 31277796.752441399, "Shape__Length": 27044.797402291199 },   "geometry":{
-  "type":"Point",
-  "coordinates":[-157.85131,21.290824]
-}
-
-
-{ "type": "Feature", "properties": { "OBJECTID": 16, "AGENCY": "Toronto Police Service", "DIV": "D54", "UNIT_NAME": "54 Division", "ADDRESS": "41 Cranfield Rd", "CITY": "Toronto", "AREA_SQKM": 20.206923959899999, "Shape_Leng": 22014.705436699998, "Shape__Area": 20238533.830566399, "Shape__Length": 22014.705436687 },   "geometry":{
-  "type":"Point",
-  "coordinates":[-157.85131,21.290824]
-}
+    "type": "FeatureCollection",
+    "name": "7153e9ee-2951-450e-9fa6-75728f141677202043-1-16rmti7.oh1dg",
+    "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+    "features": [
+        { "type": "Feature", "properties": { "OBJECTID": 1, "AGENCY": "Toronto Police Service - 11 Division", "ADDRESS": "2054 Davenport Rd", "CITY": "Toronto", "AREA_SQKM": 18.6518647338, "Shape_Leng": 20407.689332800001, "Shape__Area": 18679508.748291001, "Shape__Length": 20407.689332841499 },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    43.671088,
+                    -79.460529
+                ]
+            } },
+        
+        
+        { "type": "Feature", "properties": { "OBJECTID": 2, "AGENCY": "Toronto Police Service - 12 Division", "ADDRESS": "200 Trethewey Dr", "CITY": "Toronto", "AREA_SQKM": 24.734602112000001, "Shape_Leng": 23875.508855299999, "Shape__Area": 24771165.596435498, "Shape__Length": 23875.508855345499 },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[43.694548, -79.486934]
+            }
+        },
+        
+        { "type": "Feature", "properties": { "OBJECTID": 3, "AGENCY": "Toronto Police Service - 13 Division", "DIV": "D13", "UNIT_NAME": "13 Division", "ADDRESS": "1435 Eglinton Av W", "CITY": "Toronto", "AREA_SQKM": 18.566850990799999, "Shape_Leng": 17789.1901621, "Shape__Area": 18594759.8586426, "Shape__Length": 17789.190162147101 },   "geometry":{
+            "type":"Point",
+            "coordinates":[43.698464, -79.436721]
+        } },
+        
+        
+        { "type": "Feature", "properties": { "OBJECTID": 4, "AGENCY": "Toronto Police Service - 14 Division", "DIV": "D14", "UNIT_NAME": "14 Division", "ADDRESS": "350 Dovercourt Rd", "CITY": "Toronto", "AREA_SQKM": 14.216668757900001, "Shape_Leng": 21205.7426137, "Shape__Area": 14238076.7106934, "Shape__Length": 21205.742613714701 },   "geometry":{
+            "type":"Point",
+            "coordinates":[43.651293, -79.425705]
+        } },
+        
+        
+        { "type": "Feature", "properties": { "OBJECTID": 5, "AGENCY": "Toronto Police Service - 22 Division", "DIV": "D22", "UNIT_NAME": "22 Division", "ADDRESS": "3699 Bloor St W", "CITY": "Toronto", "AREA_SQKM": 67.926996174600006, "Shape_Leng": 52752.680651399998, "Shape__Area": 68025154.264160201, "Shape__Length": 52752.6806514333 },   "geometry":{
+            "type":"Point",
+            "coordinates":[43.642886, -79.530567]
+        } },
+        
+        
+        { "type": "Feature", "properties": { "OBJECTID": 6, "AGENCY": "Toronto Police Service - 23 Division", "DIV": "D23", "UNIT_NAME": "23 Division", "ADDRESS": "5230 Finch Av W", "CITY": "Toronto", "AREA_SQKM": 57.533088736400003, "Shape_Leng": 39162.681066600002, "Shape__Area": 57616092.778320298, "Shape__Length": 39162.681066593803 },   "geometry":{
+            "type":"Point",
+            "coordinates":[43.743860, -79.584464]
+        } },
+        
+        { "type": "Feature", "properties": { "OBJECTID": 7, "AGENCY": "Toronto Police Service - 31 Division", "DIV": "D31", "UNIT_NAME": "31 Division", "ADDRESS": "40 Norfinch Dr", "CITY": "Toronto", "AREA_SQKM": 42.578542605899997, "Shape_Leng": 32091.104432299999, "Shape__Area": 42641462.599609397, "Shape__Length": 32091.104432272201 },   "geometry":{
+            "type":"Point",
+            "coordinates":[43.756885, -79.527110]
+        } },
+        
+        
+        { "type": "Feature", "properties": { "OBJECTID": 8, "AGENCY": "Toronto Police Service - 32 Division", "DIV": "D32", "UNIT_NAME": "32 Division", "ADDRESS": "30 Ellerslie Av", "CITY": "Toronto", "AREA_SQKM": 60.934891315900003, "Shape_Leng": 31522.858546399999, "Shape__Area": 61027626.326904297, "Shape__Length": 31522.8585463858 },   "geometry":{
+            "type":"Point",
+            "coordinates":[43.772112, -79.415341]
+        } },
+        
+        
+        { "type": "Feature", "properties": { "OBJECTID": 9, "AGENCY": "Toronto Police Service - 33 Division", "DIV": "D33", "UNIT_NAME": "33 Division", "ADDRESS": "50 Upjohn Rd", "CITY": "Toronto", "AREA_SQKM": 52.6828769834, "Shape_Leng": 32571.718679900001, "Shape__Area": 52765282.939453103, "Shape__Length": 32571.718679941499 },  "geometry":{
+            "type":"Point",
+            "coordinates":[43.751211, -79.349767]
+        } },
+        
+        
+        { "type": "Feature", "properties": { "OBJECTID": 10, "AGENCY": "Toronto Police Service - 41 Division", "DIV": "D41", "UNIT_NAME": "41 Division", "ADDRESS": "2222 Eglinton Av E", "CITY": "Toronto", "AREA_SQKM": 44.419955283900002, "Shape_Leng": 41375.770477099999, "Shape__Area": 44490914.653564498, "Shape__Length": 41375.770477052298 },   "geometry":{
+            "type":"Point",
+            "coordinates":[43.730679, -79.2771274]
+        } },
+        
+        
+        { "type": "Feature", "properties": { "OBJECTID": 11, "AGENCY": "Toronto Police Service - 42 Division", "DIV": "D42", "UNIT_NAME": "42 Division", "ADDRESS": "242 Milner Av E", "CITY": "Toronto", "AREA_SQKM": 84.441689206299998, "Shape_Leng": 43182.853984399997, "Shape__Area": 84579700.531738296, "Shape__Length": 43182.853984416797 },   "geometry":{
+            "type":"Point",
+            "coordinates":[43.789562, -79.239885]
+        } },
+        
+        { "type": "Feature", "properties": { "OBJECTID": 12, "AGENCY": "Toronto Police Service - 43 Division", "DIV": "D43", "UNIT_NAME": "43 Division", "ADDRESS": "4331 Lawrence Av E", "CITY": "Toronto", "AREA_SQKM": 59.083148612899997, "Shape_Leng": 36901.770873200003, "Shape__Area": 59180509.626953103, "Shape__Length": 36901.770873232701 }, "geometry": {
+            "type":"Point",
+            "coordinates":[43.770887, -79.173997]
+        } },
+        
+        { "type": "Feature", "properties": { "OBJECTID": 13, "AGENCY": "Toronto Police Service - 51 Division", "DIV": "D51", "UNIT_NAME": "51 Division", "ADDRESS": "51 Parliament St", "CITY": "Toronto", "AREA_SQKM": 8.5941626740500006, "Shape_Leng": 18287.609544800001, "Shape__Area": 8607343.8581543006, "Shape__Length": 18287.6095447923 },  "geometry":{
+            "type":"Point",
+            "coordinates":[43.652144, -79.362502]
+        } },
+        
+        
+        
+        { "type": "Feature", "properties": { "OBJECTID": 14, "AGENCY": "Toronto Police Service - 52 Division", "DIV": "D52", "UNIT_NAME": "52 Division", "ADDRESS": "255 Dundas St W", "CITY": "Toronto", "AREA_SQKM": 9.1896164957999993, "Shape_Leng": 25900.760512199999, "Shape__Area": 9203581.0559081994, "Shape__Length": 25900.760512229801 },   "geometry":{
+            "type":"Point",
+            "coordinates": [43.654420, -79.389385]
+        } },
+        
+        
+        { "type": "Feature", "properties": { "OBJECTID": 15, "AGENCY": "Toronto Police Service - 53 Division", "DIV": "D53", "UNIT_NAME": "53 Division", "ADDRESS": "75 Eglinton Av W", "CITY": "Toronto", "AREA_SQKM": 31.229933605500001, "Shape_Leng": 27044.797402299999, "Shape__Area": 31277796.752441399, "Shape__Length": 27044.797402291199 },   "geometry":{
+            "type":"Point",
+            "coordinates": [43.706219, -79.400499]
+        } },
+        
+        
+        { "type": "Feature", "properties": { "OBJECTID": 16, "AGENCY": "Toronto Police Service - 54 Division", "DIV": "D54", "UNIT_NAME": "54 Division", "ADDRESS": "41 Cranfield Rd", "CITY": "Toronto", "AREA_SQKM": 20.206923959899999, "Shape_Leng": 22014.705436699998, "Shape__Area": 20238533.830566399, "Shape__Length": 22014.705436687 },   "geometry":{
+            "type":"Point",
+            "coordinates":[43.714761, -79.309454]
+        } }

@@ -63,21 +63,21 @@ private extension MKMapView {
 }
 
 extension ViewController: MKMapViewDelegate {
-    //
-    func mapView(
-      _ mapView: MKMapView,
-      annotationView view: MKAnnotationView,
-      calloutAccessoryControlTapped control: UIControl
-    ) {
-      guard let police = view.annotation as? PoliceStation else {
-        return
-      }
-
-      let launchOptions = [
-        MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeDriving
-      ]
-      police.mapItem?.openInMaps(launchOptions: launchOptions)
-    }
+//    //
+//    func mapView(
+//      _ mapView: MKMapView,
+//      annotationView view: MKAnnotationView,
+//      calloutAccessoryControlTapped control: UIControl
+//    ) {
+//      guard let police = view.annotation as? PoliceStation else {
+//        return
+//      }
+//
+//      let launchOptions = [
+//        MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeDriving
+//      ]
+//      police.mapItem?.openInMaps(launchOptions: launchOptions)
+//    }
 
   // call map view for every annotation
   func mapView(
