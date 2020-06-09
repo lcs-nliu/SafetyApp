@@ -30,6 +30,21 @@ class PoliceStation: NSObject, MKAnnotation {
   var subtitle: String? {
     return locationName
   }
+    
+    var mapItem: MKMapItem? {
+      guard let location = locationName else {
+        return nil
+      }
+
+      let addressDict = [CNPostalAddressStreetKey: location]
+      let placemark = MKPlacemark(
+        coordinate: coordinate,
+        addressDictionary: addressDict)
+      let mapItem = MKMapItem(placemark: placemark)
+      mapItem.name = title
+      return mapItem
+    }
+
 }
 
 //
@@ -51,17 +66,3 @@ class PoliceStation: NSObject, MKAnnotation {
 //      super.init()
 //    }
     
-//    var mapItem: MKMapItem? {
-//      guard let location = locationName else {
-//        return nil
-//      }
-//
-//      let addressDict = [CNPostalAddressStreetKey: location]
-//      let placemark = MKPlacemark(
-//        coordinate: coordinate,
-//        addressDictionary: addressDict)
-//      let mapItem = MKMapItem(placemark: placemark)
-//      mapItem.name = locationName
-//      return mapItem
-//    }
-
