@@ -12,7 +12,6 @@
 		46D14250247C0E7100A5B9BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D1424F247C0E7100A5B9BC /* SceneDelegate.swift */; };
 		46D14252247C0E7100A5B9BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D14251247C0E7100A5B9BC /* ViewController.swift */; };
 		46D14255247C0E7100A5B9BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D14253247C0E7100A5B9BC /* Main.storyboard */; };
-		46D14257247C0E8100A5B9BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D14256247C0E8100A5B9BC /* Assets.xcassets */; };
 		46D1425A247C0E8100A5B9BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D14258247C0E8100A5B9BC /* LaunchScreen.storyboard */; };
 		46DF9C102487D91100D66CF2 /* Police_Divisions.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 46DF9C0F2487D91100D66CF2 /* Police_Divisions.geojson */; };
 		46DF9C132487D9F300D66CF2 /* Police Stations Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DF9C122487D9F300D66CF2 /* Police Stations Locations.swift */; };
@@ -26,7 +25,6 @@
 		46D1424F247C0E7100A5B9BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		46D14251247C0E7100A5B9BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		46D14254247C0E7100A5B9BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		46D14256247C0E8100A5B9BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46D14259247C0E8100A5B9BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46D1425B247C0E8100A5B9BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46DF9C0F2487D91100D66CF2 /* Police_Divisions.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Police_Divisions.geojson; sourceTree = "<group>"; };
@@ -69,7 +67,6 @@
 				46D1424F247C0E7100A5B9BC /* SceneDelegate.swift */,
 				46D14251247C0E7100A5B9BC /* ViewController.swift */,
 				46D14253247C0E7100A5B9BC /* Main.storyboard */,
-				46D14256247C0E8100A5B9BC /* Assets.xcassets */,
 				462DC1FB24914E0D009F5179 /* Assets.xcassets */,
 				46D14258247C0E8100A5B9BC /* LaunchScreen.storyboard */,
 				46D1425B247C0E8100A5B9BC /* Info.plist */,
@@ -145,7 +142,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				46D1425A247C0E8100A5B9BC /* LaunchScreen.storyboard in Resources */,
-				46D14257247C0E8100A5B9BC /* Assets.xcassets in Resources */,
 				46DF9C102487D91100D66CF2 /* Police_Divisions.geojson in Resources */,
 				46D14255247C0E7100A5B9BC /* Main.storyboard in Resources */,
 				462DC1FC24914E0E009F5179 /* Assets.xcassets in Resources */,

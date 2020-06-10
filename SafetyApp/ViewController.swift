@@ -40,9 +40,9 @@ class ViewController: UIViewController {
  // commented because no longer needs this code since it only plots one annotation
          // Show one police station annotation on map
         let police = PoliceStation(
-          title: "Toronto Police Service - 11 Division",
-          locationName: "2054 Davenport Rd",
-          coordinate: CLLocationCoordinate2D(latitude: 43.671234, longitude: -79.460771))
+          title: "Toronto Police Service - 52 Division",
+          locationName: "255 Dundas St W",
+          coordinate: CLLocationCoordinate2D(latitude: 43.654420, longitude: -79.389385))
         mapView.addAnnotation(police)
 
         loadInitialData()
