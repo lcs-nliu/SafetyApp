@@ -38,13 +38,13 @@ class ViewController: UIViewController {
      mapView.delegate = self
         
  // commented because no longer needs this code since it only plots one annotation
-//         // Show one police station annotation on map
-//        let police = PoliceStation(
-//          title: "Toronto Police Service - 11 Division",
-//          locationName: "2054 Davenport Rd",
-//          coordinate: CLLocationCoordinate2D(latitude: 43.671234, longitude: -79.460771))
-//        mapView.addAnnotation(police)
-//
+         // Show one police station annotation on map
+        let police = PoliceStation(
+          title: "Toronto Police Service - 11 Division",
+          locationName: "2054 Davenport Rd",
+          coordinate: CLLocationCoordinate2D(latitude: 43.671234, longitude: -79.460771))
+        mapView.addAnnotation(police)
+
         loadInitialData()
         mapView.addAnnotations(policeStations)
 
@@ -53,7 +53,7 @@ class ViewController: UIViewController {
     
     // array to hold the police station objects
     private var policeStations: [PoliceStation] = []
-    
+
     private func loadInitialData() {
       //  Read the geoJSON file into a data object
       guard
@@ -94,21 +94,21 @@ private extension MKMapView {
 }
 
 extension ViewController: MKMapViewDelegate {
-//    //
-//    func mapView(
-//      _ mapView: MKMapView,
-//      annotationView view: MKAnnotationView,
-//      calloutAccessoryControlTapped control: UIControl
-//    ) {
-//      guard let police = view.annotation as? PoliceStation else {
-//        return
-//      }
-//
-//      let launchOptions = [
-//        MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeDriving
-//      ]
-//      police.mapItem?.openInMaps(launchOptions: launchOptions)
-//    }
+    //
+    func mapView(
+      _ mapView: MKMapView,
+      annotationView view: MKAnnotationView,
+      calloutAccessoryControlTapped control: UIControl
+    ) {
+      guard let police = view.annotation as? PoliceStation else {
+        return
+      }
+
+      let launchOptions = [
+        MKLaunchOptionsDirectionsModeKey: MKLaunchOptionsDirectionsModeDriving
+      ]
+      police.mapItem?.openInMaps(launchOptions: launchOptions)
+    }
 
   // call map view for every annotation
   func mapView(

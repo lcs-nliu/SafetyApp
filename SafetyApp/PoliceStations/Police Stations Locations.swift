@@ -37,7 +37,7 @@ class PoliceStation: NSObject, MKAnnotation {
             else {
                 return nil
         }
-        
+
         // set the police station properties we need
         title = properties["AGENCY"] as? String
         locationName = properties["ADDRESS"] as? String
@@ -49,19 +49,19 @@ class PoliceStation: NSObject, MKAnnotation {
         return locationName
     }
     
-    //    var mapItem: MKMapItem? {
-    //      guard let location = locationName else {
-    //        return nil
-    //      }
-    //
-    //      let addressDict = [CNPostalAddressStreetKey: location]
-    //      let placemark = MKPlacemark(
-    //        coordinate: coordinate,
-    //        addressDictionary: addressDict)
-    //      let mapItem = MKMapItem(placemark: placemark)
-    //      mapItem.name = title
-    //      return mapItem
-    //    }
+        var mapItem: MKMapItem? {
+          guard let location = locationName else {
+            return nil
+          }
+    
+          let addressDict = [CNPostalAddressStreetKey: location]
+          let placemark = MKPlacemark(
+            coordinate: coordinate,
+            addressDictionary: addressDict)
+          let mapItem = MKMapItem(placemark: placemark)
+          mapItem.name = title
+          return mapItem
+        }
     
 }
 
