@@ -99,4 +99,7 @@
         { "type": "Feature", "properties": { "OBJECTID": 16, "AGENCY": "Toronto Police Service - 54 Division", "DIV": "D54", "UNIT_NAME": "54 Division", "ADDRESS": "41 Cranfield Rd", "CITY": "Toronto", "AREA_SQKM": 20.206923959899999, "Shape_Leng": 22014.705436699998, "Shape__Area": 20238533.830566399, "Shape__Length": 22014.705436687 },   "geometry":{
             "type":"Point",
             "coordinates":[43.714761, -79.309454]
-        } }
+            }
+                }
+              ]
+            }

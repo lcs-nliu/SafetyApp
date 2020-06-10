@@ -18,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		462DC1F824906CFD009F5179 /* gpx-10-06-2020-03-17-07-8693-77640.GPX */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "gpx-10-06-2020-03-17-07-8693-77640.GPX"; sourceTree = "<group>"; };
 		46D1424A247C0E7100A5B9BC /* SafetyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafetyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46D1424D247C0E7100A5B9BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46D1424F247C0E7100A5B9BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +45,7 @@
 		46D14241247C0E7100A5B9BC = {
 			isa = PBXGroup;
 			children = (
+				462DC1F824906CFD009F5179 /* gpx-10-06-2020-03-17-07-8693-77640.GPX */,
 				46D1424C247C0E7100A5B9BC /* SafetyApp */,
 				46D1424B247C0E7100A5B9BC /* Products */,
 			);
@@ -303,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4Z8K5J6R48;
 				INFOPLIST_FILE = SafetyApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,6 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4Z8K5J6R48;
 				INFOPLIST_FILE = SafetyApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

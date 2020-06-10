@@ -37,16 +37,47 @@ class ViewController: UIViewController {
         
      mapView.delegate = self
         
-         // Show one police station annotation on map
-        let police = PoliceStation(
-          title: "Toronto Police Service - 11 Division",
-          locationName: "2054 Davenport Rd",
-          coordinate: CLLocationCoordinate2D(latitude: 43.671234, longitude: -79.460771))
-        mapView.addAnnotation(police)
+ // commented because no longer needs this code since it only plots one annotation
+//         // Show one police station annotation on map
+//        let police = PoliceStation(
+//          title: "Toronto Police Service - 11 Division",
+//          locationName: "2054 Davenport Rd",
+//          coordinate: CLLocationCoordinate2D(latitude: 43.671234, longitude: -79.460771))
+//        mapView.addAnnotation(police)
+//
+        loadInitialData()
+        mapView.addAnnotations(policeStations)
+
 
     }
     
+    // array to hold the police station objects
+    private var policeStations: [PoliceStation] = []
     
+    private func loadInitialData() {
+      //  Read the geoJSON file into a data object
+      guard
+        let fileName = Bundle.main.url(forResource: "Police_Divisions", withExtension: "geojson"),
+        let policeData = try? Data(contentsOf: fileName)
+        else {
+          return
+      }
+
+      do {
+        // Obtain an array of GeoJSON objects using MKGeoJSONDecoder and compact map
+        let features = try MKGeoJSONDecoder()
+          .decode(policeData)
+          .compactMap { $0 as? MKGeoJSONFeature }
+        // MKGeoJSONFeature objects into PoliceStation objects using the failable initializer and compact map
+        let validLocations = features.compactMap(PoliceStation.init)
+        // Append the
+        policeStations.append(contentsOf: validLocations)
+      } catch {
+        // If there is an error, print it
+        print("Unexpected error: \(error).")
+      }
+    }
+
 }
 // sets rectangular region to control zoom level (currently set to 5km)
 private extension MKMapView {
